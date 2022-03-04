@@ -13,7 +13,7 @@ ReactDOM.hydrate(
       <h4>tree => http://localhost:3000/</h4>
       <h4>four => check view page source</h4>
       <h4>please checke network in inspect (*_*)</h4>
-      <h4>disabled javascript from browser settings  (*_*)</h4>
+      <h4>disabled javascript from browser settings (*_*)</h4>
       <App />
     </div>
   </React.StrictMode>,
