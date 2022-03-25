@@ -60,7 +60,9 @@ const fetch = (req, res, next) => {
     });
 }
 
-app.get(["/master", "/home", "/test"], fetch);
+const routes = ["/master", "/home", "/test"];
+
+app.get(routes, fetch);
 
 app.use(express.static(path.resolve(__dirname, '..', 'build')))
 
